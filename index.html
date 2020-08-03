@@ -935,7 +935,7 @@ Normalife на молекулярном уровне встраивается в
                     <div style="border:1px solid #0299ff;padding:10px;padding-bottom:40px;">
                         <center>
                             <img src="images/info.jpg">
-                            <h2>Normalife dengan promo yang tersisa: <u style="font-size:42px;color:red;"><span class="prod_left_val left-pack"></span> item</u></h2>
+                            <h2>Normalife dengan promo yang tersisa: <u style="font-size:42px;color:red;"><span class="prod_left_val left-pack"></span> 36</u></h2>
                             <h3>Menerima formulir untuk «Normalife»</h3>
                             <a href="#order_form" class="obutton">Mengisi formulir sekarang</a>
                         </center>
@@ -1106,7 +1106,7 @@ Normalife на молекулярном уровне встраивается в
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="http://admin.rcktprft.ru/scripts-for-local-development/jquery.js"></script> -->
+    <!-- <script src="https://admin.rcktprft.ru/scripts-for-local-development/jquery.js"></script> -->
     <script src="./js/spin.js"></script>
 <script>
 				window._locations = [{"offer_id":"545","country_code":"ID","price_current":490000,"display_priority":0,"id":1643084,"name":"Indonesia","type":"country","country_id":1643084,"region_name":null,"currency":"Rp","country_name":"Indonesia","price_previous":980000,"price_delivery":0,"price_total":490000}];
@@ -1390,7 +1390,7 @@ function initiate(cookies) {
 	});
 
     function initializeTimer() {
-        // Додади клас "timer-different" для <body>, якщо необхідно розділяти розряди годин, хвилин і секунд. Наприклад, http://prntscr.com/japnvo
+        // Додади клас "timer-different" для <body>, якщо необхідно розділяти розряди годин, хвилин і секунд. Наприклад, https://prntscr.com/japnvo
 
         if (!localStorage.getItem("ever-timer")) {
             var time = {
@@ -1467,7 +1467,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script><script>!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n||e)},l,l.exports,e,t,n,r)}return n[o].exports}for(var i="function"==typeof require&&require,o=0;o<r.length;o++)s(r[o]);return s}({1:[function(require,module,exports){function setupCountry(countryCode){var isEu=euCountries.includes(countryCode);$(".europe").toggle(isEu),$(".non-europe").toggle(!isEu),changePrices(countryCode),$(".x_order_form, .x_subscribe_form").each(function(){function validation(){var text,name=$.trim($('input[name="name"]',this).val()),phone=($('input[name="phone"]',this).val()||"").replace(/[^0-9]+/g,"");return name?!(phone.length<8&&(text=$("body").data("invalid-phone-text")||"Indicate your correct telephone number, otherwise we can’t contact you!",alert(text),1)):(text=$("body").data("invalid-name-text")||"Indicate your correct name, please!",alert(text),!1)}var $el=$(this),isOrder=$el.is(".x_order_form"),countryInput=$el.find('select[name="country_code"]');countryInput.length?(countryInput.val(countryCode),countryInput.on("change",function(){changePrices(this.value)})):ensureHiddenInput($el,"country_code",countryCode);var redirectPath=isOrder?"/subscribe.html":"/success.html";ensureHiddenInput($el,"redirect_url",window.location.origin+redirectPath),isOrder&&$el.on("submit",validation)}),window.additional_phone_in_downloaded&&$(".clone-phone").each(function(){var $cloned=$(this).clone();if("INPUT"===$cloned.prop("tagName"))$cloned.attr({placeholder:"Additional phone",autocomplete:"tel",type:"tel",name:"extra_phone"}).removeAttr("id").removeAttr("required").insertAfter(this);else{var $label=$cloned.find("label"),labelText=$label.text();$label.text(window.additional_phone_placeholder||labelText);var $innerInput=$cloned.find("input").first(),placeholder=$innerInput.attr("placeholder")||"";$innerInput.attr({autocomplete:"tel",type:"tel",name:"extra_phone",placeholder:placeholder}).removeAttr("id").removeAttr("required"),$cloned.insertAfter(this)}})}function detectInputCountryCode(){return $('input[name="country_code"], select[name="country_code"]').map(function(){return $(this).val()}).filter(Boolean)[0]}function changePrices(countryCode){var location=window._locations.find(function(l){return l.country_code===countryCode})||window._location;location&&($(".x_price_current").text(location.price_current),$(".x_price_previous").text(location.price_previous),$(".x_price_total").text(location.price_total),$(".x_price_delivery").text(location.price_delivery),$(".x_currency").text(location.currency||""))}function ensureHiddenInput($el,name,value){const $input=$el.find('input[name="'+name+'"]');$input.length?$input.attr("value",value):$el.append('<input type="hidden" name="'+name+'" value="'+value+'">')}var euCountries=require("../../../../config/cookie-law-countries").hasLaw;$(document).ready(function(){window._locations=window._locations||[],window._location=window._locations[0]||{};var queryCountryCode=(window.location.search.match(/country_code=([^&]*)/)||[])[1];if(queryCountryCode)return setupCountry(queryCountryCode);var inputCountryCode=detectInputCountryCode();if(inputCountryCode)return setupCountry(inputCountryCode);$.getJSON("https://geoip-db.com/json/").done(function(data){return data=data||{},setupCountry(data.country_code)}).fail(function(jqxhr,textStatus,error){return console.error(error),setupCountry("")})})},{"../../../../config/cookie-law-countries":2}],2:[function(require,module,exports){module.exports={hasLaw:["AT","BE","BG","HR","CZ","CY","DK","EE","FI","FR","DE","EL","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","SK","SI","ES","SE","GB","UK"]}},{}]},{},[1]);</scrip</script>
 
 <!-- UNILAND START -->
-<script type="text/javascript" src="http://uni-pov.orthofix.space/app/web/js/uniland.js?5f2438c8a7acb"></script>
+<script type="text/javascript" src="https://uni-pov.orthofix.space/app/web/js/uniland.js?5f27e47067612"></script>
 <script type="text/javascript">
     var scripts = [];
     start = Date.now();
@@ -1475,8 +1475,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var uniland = new Uniland();
 
     uniland.prelandMode = 0;
-    uniland.landId = 833;
-    uniland.landUrl = "http://nl3.toooutlet.com/?marker_id=1";
+    uniland.landId = 844;
+    uniland.landUrl = "https://tarmed.github.io/id/index.html?marker_id=1";
 
         //названия полей формы, откуда скрипт берет данные
     //    uniland.aliasName = 'name';
@@ -1489,14 +1489,14 @@ document.addEventListener('DOMContentLoaded', function () {
     uniland.aliasGoodsCount = 'goods_count';//выбранное количество
     uniland.aliasGoodPrice = 'good_price';//цена за шт
 
-    uniland.urlOrder = 'http://uni-pov.orthofix.space/app/web/api/order';
-    uniland.urlEmail = 'http://uni-pov.orthofix.space/app/web/api/email/get';
+    uniland.urlOrder = 'https://uni-pov.orthofix.space/app/web/api/order';
+    uniland.urlEmail = 'https://uni-pov.orthofix.space/app/web/api/email/get';
     uniland.sendEmptyForm = true; //поставить false, чтобы не отправлять конверсии с пустыми полями
 
     
 
 
-    uniland.urlPixel = 'http://uni-pov.orthofix.space/app/web/api/pixel';
+    uniland.urlPixel = 'https://uni-pov.orthofix.space/app/web/api/pixel';
 
     uniland.processPixel();
 
@@ -1528,10 +1528,11 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(init, 1000);
 </script>
 <noscript>
-    <div><img src="http://uni-pov.orthofix.space/app/web/api/pixel?land_id=833" style="position:absolute; left:-9999px;"
+    <div><img src="https://uni-pov.orthofix.space/app/web/api/pixel?land_id=844" style="position:absolute; left:-9999px;"
               alt=""/></div>
 </noscript>
 <!-- UNILAND END -->
+
 
 
 </body>

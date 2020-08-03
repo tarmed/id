@@ -3,56 +3,48 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<title>pesanan Anda telah diterima</title>
-	<link rel="stylesheet" href="default-css/subscribe.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=2.0">
+	<link href="default-css/success.css" rel="stylesheet" type="text/css">
+	<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '583435135678131');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=583435135678131&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
-<body data-invalid-email-text="Email tidak ditemukan!">
-	<header>
-		<div class="shadow-wraper">
-			<div class="wraper-header wraper">
-				<div class="left-header">
-					<p class="thanks"><img src="default-img/yes.png" alt="" class="yes">Terimakasih!</p>
-					<p class="after-thanks">
-						<span class="line">Pesan anda telah berhasil staff kami akan segera hubungi </span>
-						<span class="line">untuk memberi informasi lebih lanjut.</span>
-					</p>
-				</div>
-				<div class="right-header info-order-container" style="display: none;">
-					<p class="info-order">informasi tentang pesanan
-
-					</p>
-					<div class="all-info">
-						<span class="user-phone x_client_phone">+380931234567</span>,
-						<span class="user-name x_client_name">Иван Иванов</span>
-					</div>
-				</div>
-				<div class="clear"></div>
-			</div>
+<body>
+     <script>
+  fbq('track', 'Lead');
+</script>
+	<section>
+		<div class="content">
+			<h1 class="title">Terimakasih!</h1>
+			<ol class="content_txt-list">
+				<li class="content_txt">Dapatkan diskon 75% saat memesan</li>
+				<li class="content_txt">Silakan perika kotak pesanan anda</li>
+				<li class="content_txt">Buka email dan konfirmasikan email Anda.</li>
+			</ol>
 		</div>
-	</header>
-	<div class="main-content">
-		<div class="main-content-wraper wraper">
-			<p class="main-title">Kiat kesehatan dan merasa lebih berenergik dari sebelumnya?
-			</p>
-
-			<form method="post" action="https://bestzdrav.com/subscribe" class="x_subscribe_form">
-				<p class="form-title">Daftar untuk mendapat berita kiat yang lebih baik dan dapat menerima hadiah
-				</p>
-				<input type="email" placeholder="email mu" name="email" class="x_client_email" required>
-				<button type="submit">Daftar untuk mendapat berita</button>
-				<div class="clear"></div>
-			<input type="hidden" name="campaign_id" value="951357"><input type="hidden" name="es_list_id" value=""></form>
-			<p class="after-form-text">Tidak ada spam dan dapat membatalkan tindak lanjut sesuai dengan kebutuhan anda.</p>
+	</section>
+	<footer>
+		<div class="center">
+			<a href="privacy.html" class="polit">Kebijakan Privasi</a>
 		</div>
-	</div>
-	<div class="footer">
-		<div class="wraper-footer">
-			<a href="privacy.html" class="politic" target="_blank">Kebijakan Privasi</a>
-		</div>
-	</div>
+	</footer>
 <script>
 				window._locations = [{"offer_id":"545","country_code":"ID","price_current":490000,"display_priority":0,"id":1643084,"name":"Indonesia","type":"country","country_id":1643084,"region_name":null,"currency":"Rp","country_name":"Indonesia","price_previous":980000,"price_delivery":0,"price_total":490000}];
 				window.additional_phone_in_downloaded = false;
