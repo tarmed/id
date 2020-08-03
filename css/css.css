@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+/* merriweather-regular - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'),
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Italic'), local('Merriweather-Italic'),
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-700 - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'),
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-700italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'),
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-900 - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Merriweather Black'), local('Merriweather-Black'),
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-900italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Merriweather Black Italic'), local('Merriweather-BlackItalic'),
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v21-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
