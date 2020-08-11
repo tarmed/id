@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.carousel').slick({
-  slidesToShow: 3,
+  slidesToShow: 2,
   dots:true,
   centerMode: false,
   });

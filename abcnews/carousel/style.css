@@ -1,7 +1,8 @@
 .wrapper{
-  width:100%;
+  width:98%;
   padding-top: 20px;
   text-align:center;
+  max-width: 1000px;
 }
 h2{
   font-family:sans-serif;
@@ -17,4 +18,14 @@ h2{
 .slick-slide img{
   width:100%;
   border: 2px solid #fff;
+}
+.slick-prev:before, .slick-next:before {
+color: #E91E63;
+font-size: 30px;
+}
+.slick-prev {
+    left: -19px;
+}
+.slick-next {
+    right: -9px;
 }
